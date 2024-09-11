@@ -29,8 +29,8 @@ void setup() {
                     ->set_hostname("sensESP Alarm interface")
                     // Optionally, hard-code the WiFi and Signal K server
                     // settings. This is normally not needed.
-                    ->set_wifi("fbi", "younghomewifi")
-                    ->set_sk_server("192.168.1.69", 80)
+                    ->set_wifi("xxx", "xxxxxx")
+                    ->set_sk_server("192.168.1.xx", 80)
                     ->get_app();
 
 
